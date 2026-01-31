@@ -28,10 +28,19 @@ This project involves building a 3 Degree of Freedom (DOF) robotic arm using an 
 - **Body**: 3D Printed (PLA/PETG)
 
 ## Folder Structure
-- `/firmware`: PlatformIO/Arduino code for ESP32
-- `/hardware`: SolidWorks parts, STL files for 3D printing, Schematics
-- `/software`: PC-side software (Python, AI integration)
-- `/docs`: Calculations, Kinematics diagrams, Datasheets
+- `/firmware`: ESP32-S3 source code (PlatformIO/Arduino)
+- `/hardware`: CAD files, STLs for 3D printing, and detailed specifications
+- `/resources`: Datasheets, component images, and 3D reference models
+- `/software`: Python-side control, Computer Vision, and AI integration
+- `/docs`: Technical documentation, kinematics calculations, and diagrams
+- `tasks.md`: Detailed project roadmap and progress tracking
+
+## Resources
+- **ESP32-S3 Datasheet**: [Espressif Systems](https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf)
+- **MG996R Servo Reference**: [TowerPro MG996R Datasheet](https://www.towerpro.com.tw/product/mg996r/) / See `/resources/mg996r servo` for 3D models (STEP/SLDPRT)
+- **Power Components**: 
+  - [XL4016 Buck Converter Datasheet](https://www.xlsemi.com/datasheet/XL4016%20datasheet.pdf)
+  - [MP1584EN Buck Converter Datasheet](https://www.monolithicpower.com/en/documentview/productdocument/dataset/document_id/510/pn/MP1584/)
 
 ## Getting Started
 1. **Hardware**: Print parts from `/hardware` and assemble.

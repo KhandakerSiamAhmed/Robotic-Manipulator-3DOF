@@ -1,9 +1,10 @@
 # Project Tasks & Progress
 
 ## 🟢 Phase 0: Project Initialization
-- [x] Create repository structure (README, .gitignore)
-- [x] Define folder structure (`firmware`, `hardware`, `software`, `docs`)
+- [x] Create repository structure (README, .gitignore, tasks)
+- [x] Define folder structure (`firmware`, `hardware`, `software`, `docs`, `resources`)
 - [x] Finalize Bill of Materials (BOM) (ESP32-S3, MG996R Analog, 12V 10A PS)
+- [x] Organize initial resources (Datasheets, 3D Models)
 
 ## 🔘 Phase 1: Mechanical & Hardware Design
 - [ ] Base rotation design (SolidWorks)
@@ -25,5 +26,5 @@
 - [ ] LLM Chatbot integration
 
 ---
-*Last Updated: 2026-02-01 (Updated Hardware Specs)*
+*Last Updated: 2026-02-01 (Updated Resources & Structure)*
 
