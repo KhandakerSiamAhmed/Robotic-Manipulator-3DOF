@@ -3,13 +3,14 @@
 ## 🟢 Phase 0: Project Initialization
 - [x] Create repository structure (README, .gitignore)
 - [x] Define folder structure (`firmware`, `hardware`, `software`, `docs`)
-- [ ] Finalize Bill of Materials (BOM)
+- [x] Finalize Bill of Materials (BOM) (ESP32-S3, MG996R Analog, 12V 10A PS)
 
 ## 🔘 Phase 1: Mechanical & Hardware Design
 - [ ] Base rotation design (SolidWorks)
 - [ ] Link 1 & 2 design (SolidWorks)
 - [ ] 1 DOF Gripper design
-- [ ] Electronics wiring schematic
+- [x] Electronics wiring schematic (Refer to `hardware/hardware_specifications.md`)
+
 
 ## 🔘 Phase 2: Firmware (ESP32)
 - [ ] Basic Servo PWM Control
@@ -24,4 +25,5 @@
 - [ ] LLM Chatbot integration
 
 ---
-*Last Updated: 2026-02-01*
+*Last Updated: 2026-02-01 (Updated Hardware Specs)*
+

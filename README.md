@@ -13,13 +13,18 @@ This project involves building a 3 Degree of Freedom (DOF) robotic arm using an 
 - **Future Support**: Digital Twin, Computer Vision, and Voice Control.
 
 ## Hardware Specifications (BOM)
-- **Microcontroller**: ESP32 DevKit V1
+- **Microcontroller**: ESP32 S3-WROOM-1
 - **Actuators**: 
-  - 3x MG996R High Torque Servos (Modded for analog feedback or specific feedback models)
-  - 1x Servo for Gripper (MG996R or MG90S)
+  - 3x MG996R Analog Feedback Servos (with built-in feedback wire)
+  - 1x Servo for Gripper (MG996R Analog Feedback or standard MG90S)
+- **Power System**:
+  - **Main Source**: 12V 10A SMPS
+  - **Servo Power**: 250W 8A Buck Converter XH-M404 (Adjustable DC-DC Step-Down, XL4016)
+  - **ESP Power**: Mini MP1584EN DC-DC Buck (5V Step-Down)
 - **Sensors**:
-  - Current Sensor (ACS712 or INA219) for gripper feedback
-- **Power Supply**: 5V/10A Power Supply (Servos are power hungry!)
+  - Analog feedback from servos
+  - Current Sensor (ACS712 or INA219) for gripper feedback (optional/planned)
+
 - **Body**: 3D Printed (PLA/PETG)
 
 ## Folder Structure
