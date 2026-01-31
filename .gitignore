@@ -1,0 +1,26 @@
+# PlatformIO / Arduino
+.pio/
+.pioenvs/
+.piolibdeps/
+*.elf
+*.hex
+*.bin
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# VS Code
+.vscode/
+
+# SolidWorks
+*.sldprt
+*.sldasm
+*.slddrw
+~$*
+
+# OS
+.DS_Store
+Thumbs.db
