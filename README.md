@@ -39,8 +39,8 @@ This project involves building a 3 Degree of Freedom (DOF) robotic arm using an 
 - **ESP32-S3 Datasheet**: [Espressif Systems](https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf)
 - **MG996R Servo Reference**: [TowerPro MG996R Datasheet](https://www.towerpro.com.tw/product/mg996r/) / See `/resources/mg996r servo` for 3D models (STEP/SLDPRT)
 - **Power Components**: 
-  - [XL4016 Buck Converter Datasheet](https://www.xlsemi.com/datasheet/XL4016%20datasheet.pdf)
-  - [MP1584EN Buck Converter Datasheet](https://www.monolithicpower.com/en/documentview/productdocument/dataset/document_id/510/pn/MP1584/)
+  - [XL4016 Buck Converter Datasheet](https://www.makerfabs.com/desfile/files/XL4016-Datasheet.pdf?srsltid=AfmBOorBqUHxe8rruFpRPr-hvjg_rtAtlco-nrxvruKmJBOs5xRXI1jG)
+  - [MP1584EN Buck Converter Datasheet](https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP1584EN-LF-Z/document_id/204/?srsltid=AfmBOoqbipCssOLFnyYyWDI6qNd1A_QNHzBjfrojRFrqvrEzalXrb5j9)
 
 ## Getting Started
 1. **Hardware**: Print parts from `/hardware` and assemble.
